@@ -23,7 +23,7 @@ Open in VS Code with the PlatformIO extension installed. PlatformIO auto-detects
 
 ## Calibration
 
-Turn and forward steps are tunable in `lib/CubettoLibrary/CubettoLibrary.h`:
+Turn and forward steps are tunable in `lib/cubetto/cubetto.h`:
 ```cpp
 #define STEPPER_TURN_STEPS_LEFT    1085
 #define STEPPER_TURN_STEPS_RIGHT   1085
